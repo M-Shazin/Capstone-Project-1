@@ -143,8 +143,14 @@ body{
 
 /* Project Section End */
 
-@media (max-width:1600px) {
+@media (max-width:1100px) {
+    .project-image{
+    object-fit: contain;
+    width: 515px;
+    border-radius: 20px;
 
+    border-radius: 10px;
+    }
 
     
 }
